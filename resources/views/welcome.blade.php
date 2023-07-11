@@ -24,4 +24,12 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora temporibus, dicta nemo aliquam totam nisi deserunt soluta quas voluptatum ab beatae praesentium necessitatibus minus, facilis illum rerum officiis accusamus dolores!</p>
     </div>
 </div>
+
+{{-- @foreach ($projects as $project)
+			<div class="card">
+				<div class="card-header">
+					{{$project->title}}
+				</div>
+			</div>
+			@endforeach --}}
 @endsection
